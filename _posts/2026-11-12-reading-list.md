@@ -2,7 +2,7 @@
 layout: post
 read_time: true
 show_date: true
-title: "输入"
+title: "书单"
 date: 2026-11-12 10:00:00 +0800
 description: "豆瓣「读过」的全部 139 本书，按年份排列，最早一本读于 2009 年 12 月。"
 img: posts/20261112/book-list.jpg
