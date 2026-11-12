@@ -24,9 +24,9 @@ logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
-author: Deheng Qian # add your name
+author: 钱德恒 # add your name
 author-pic: myfamily.jpg
-about-author: 我 1989 年生于江西分宜，2011 年获华中科技大学计算机科学与技术学士学位，2016 年在中国科学院获博士学位。2018 年与 Mengling Yan 结婚，2021 年儿子 Chengyi Qian 出生。这张照片是我妻子与儿子的合影。
+about-author: 想象另一种可能
 
 # Contact links
 email: 835853273@qq.com # Add your Email address
