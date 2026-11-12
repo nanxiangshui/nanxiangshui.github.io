@@ -130,11 +130,11 @@
       navigator.clipboard.writeText('{{ site.url }}{{ page.url }}').then(function() {
       alerts = document.getElementsByClassName('alert')
       for (i=0; i < alerts.length; i++){
-        alerts[i].innerHTML='\u00ABlink copied\u00BB';
+        alerts[i].innerHTML='链接已复制';
         setTimeout((function(i){ return function(){alerts[i].innerHTML='';}})(i), 1600 );
       };
       }, function() {
-        prompt("Unable to copy, please use this link:", "{{ site.url }}{{ page.url }}");
+        prompt("无法复制，请手动使用此链接：", "{{ site.url }}{{ page.url }}");
       });
     }
 
@@ -162,7 +162,7 @@
           tweetSpanText.appendChild(document.createTextNode(tweetTags[i].textContent));
           tweetSpanIcon = document.createElement('span');
           tweetSpanIcon.className = 'tweetIcon';
-          tweetSpanIcon.appendChild(document.createTextNode("click to tweet"));
+          tweetSpanIcon.appendChild(document.createTextNode("点击发推"));
           tweetI = document.createElement("i");
           tweetI.className = 'fa fa-twitter';
           tweetSpanIcon.appendChild(tweetI);
@@ -240,7 +240,7 @@
       resultsContainer: document.getElementById('results-container'),
       json: '{{ relativebase }}search.json',
       searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a><p>{description}</p></li>',
-      noResultsText: 'No results found',
+      noResultsText: '没有找到结果',
       fuzzy: false,
       exclude: ['Welcome']
     });
