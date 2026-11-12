@@ -865,20 +865,6 @@ svg.menu-icon-house {
   padding-left: 5px;
   width: 95%
 }
-.post-card-tags{
-  font-size: 10px
-}
-
-.tag {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  white-space: nowrap
-}
-.tag:hover {
-  text-decoration: underline;
-  color: var(--grey4);
-}
 .post-card-title-and-meta {
   margin:0;
   color: white;
@@ -1101,20 +1087,6 @@ svg.menu-icon-house {
   transition: all 0.5s;
 }
 /* = = = = = = = = = = Left sidebar  = = = = = = = = = = */
-.sidebar.side .tag-cloud{
-  display:none;
-}
-ul.tags {
-  justify-content: center;
-}
-a.tag {
-  line-height: 1;
-  white-space: pre-wrap;
-  text-align:center;
-}
-a.tag.side {
-  padding: 3px 0px 3px 0px;
-}
 .share-options {
   cursor: default;
 }
@@ -1162,12 +1134,6 @@ a.tag.side {
     width: 115px;
     margin-left: -135px;
     float: left;
-  }
-  .sidebar.side .tag-cloud{
-    display:block;
-  }
-  ul.tags.side {
-    display: block;
   }
   .share-options.side {
     width: 20px;
@@ -1281,43 +1247,6 @@ path.fa-secondary {
     overflow: scroll;
   }
 }
-/* = = = = = = = = = = Tags = = = = = = = = = = */
-
-.center-tags .tag-cloud ul.tags {
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-div.tag-cloud{
-    margin-bottom: 1em;
-}
-.tags {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-.tags li a {
-    margin-right: 10px;
-    margin-bottom: 10px;
-    line-height: 20px;
-    font-size: 12px;
-    text-decoration: none;
-    color: var(--grey1) !important;
-    border: 2px solid transparent;
-    background: var(--grey5);
-    border-radius: 15px;
-    padding: 3px 15px;
-    font-family: var(--font2);
-    font-weight: var(--font2-regular);
-    display: block;
-    text-transform: lowercase}
-.tags li a:hover {
-    background: var(--accent);
-    color: white !important;
-    text-decoration: none}
-
 /* = = = = = = = = = = Github Link Button = = = = = = = = = = */
 .center-container {
   display: flex;
@@ -1513,24 +1442,10 @@ img + small, img + br + small {
   border-bottom: 1px solid #d9d9d9;
 }
 
-.page-footer .page-tag,
 .page-footer .page-share {
   text-transform: uppercase;
   font-size: 12px;
   color: var(--accent-dark);
-}
-
-.page-footer .page-tag {
-  margin-bottom: 10px;
-}
-
-.page-footer .page-tag a {
-  text-decoration: none;
-  color: var(--accent);
-}
-
-.page-footer .page-tag a:hover {
-  opacity: .8;
 }
 
 .page-footer .page-share a {
